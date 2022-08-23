@@ -17,8 +17,8 @@ fi
 
 #sec 2
 
-#declare -a array=("git","curl","wget","nmap" "vim" "whatweb" "gobuster" "binwalk" "wfuzz" "hydra" "john" "hashcat" "aircrack-ng" "evil-winrm" "steghide" "recon-ng" "whois" "twint" "reaver" "metasploit" "exploitdb" "nikto" "netdiscover" "seclists" "webshells" "openvpn")
-declare -a array=("nmap" "vim" "whatweb" "gobuster")
+declare -a array=("git","curl","wget","nmap" "vim" "whatweb" "gobuster" "binwalk" "wfuzz" "hydra" "john" "hashcat" "aircrack-ng" "evil-winrm" "steghide" "recon-ng" "whois" "twint" "reaver" "metasploit" "exploitdb" "nikto" "netdiscover" "seclists" "webshells" "openvpn")
+#declare -a array=("nmap" "vim" "whatweb" "gobuster")
 declare -a array2=()
 for i in "${array[@]}"
 do
